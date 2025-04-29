@@ -1,0 +1,40 @@
+Dataset Statistics:
+           length  word_count
+count  892.000000  892.000000
+mean    38.337444    8.679372
+std     11.535211    2.871021
+min      7.000000    2.000000
+25%     31.000000    7.000000
+50%     38.000000    8.000000
+75%     44.000000   10.000000
+max    109.000000   23.000000
+
+Training with Hyperparameters Set 1: {'num_train_epochs': 3, 'learning_rate': 5e-05, 'per_device_train_batch_size': 8}
+{'loss': 5.083, 'grad_norm': 40.24903106689453, 'learning_rate': 4.766949152542373e-05, 'epoch': 1.0}
+{'loss': 4.3818, 'grad_norm': 42.7164306640625, 'learning_rate': 2.3940677966101697e-05, 'epoch': 2.0}
+{'loss': 3.9899, 'grad_norm': 100.66979217529297, 'learning_rate': 2.1186440677966102e-07, 'epoch': 3.0}
+{'train_runtime': 1016.3726, 'train_samples_per_second': 2.633, 'train_steps_per_second': 0.331, 'train_loss': 4.48487054734003, 'epoch': 3.0}
+
+Generated Poem 1:
+The moonlight glows with a faint and silent flame, and, i pray, its luminous glow, will not cease. i have not seen a moon since the beginning; i hope that i did not. what i hear is, in the end, the meaning of which i know. as i see it.--the meaning i ask. and see. is that the truth i find? i sayin'--and i mean--what i observe. but the only,--so i
+
+Generated Poem 2:
+The moonlight glows, and the stars are gone,--a time for the dead is past. But the sun still shines, though gone--the stars have not yet gone away.--no more. the time has passed. --for the first time.
+
+--as far as the sea, where the ocean sleeps, hath begun, --he that sleeps--has heard the bells. and sings:--he--that sings--and his singing--is gone.
+
+
+1723
+
+Generated Poem 3:
+The moonlight glows with the sun; the stars are shining, and the moon is gone.
+
+
+THE FATHER'S MOUSE, the wisps, i know,--the lover's wife, or mother, my friend--has seen her, that is all, she knows. i can not, though she should, see the other. she says, "he's gone, for the love of all his friends."--she's a girl's lover. that's
+
+Qualitative Analysis:
+Creativity: Average Score = 3.00/5
+Coherence: Average Score = 5.00/5
+Relevance: Average Score = 5.00/5
+
+Training with Hyperparameters Set 2: {'num_train_epochs': 4, 'learning_rate': 3e-05, 'per_device_train_batch_size': 4}
